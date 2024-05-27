@@ -1,0 +1,44 @@
+  
+.col{
+    background-color: lightblue;
+}
+body{background-color: rgb(24, 36, 197);
+}
+
+  div.header {
+    width:auto;
+    height:60px;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+/*      */
+div{ display: block;text-align: center; 
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+
+.topnav a {
+    float: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+  }
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .form-container {
+    align-items: center;
+}

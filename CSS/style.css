@@ -1,0 +1,89 @@
+  
+
+@media screen and (max-width: 600px) {
+    body{background-color: rgb(24, 36, 197);
+}
+}
+
+  div.header {
+    width:auto;
+    height:60px;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+/*      */
+div{ display: block;text-align: center; 
+}
+
+
+.topnav a {
+  float: left;  
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+    text-decoration: none;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+  }
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+
+  .form-container {
+    align-items: center;
+}
+
+/* bigger screen--> bigger text */
+  @media screen and (min-width: 600px) {
+    div.example {
+      font-size: 40px;
+    }
+  }
+  /* Small screen--> smaller text */
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 20px;
+    }
+  }
+    /* bigger screen--> bigger text */
+    @media screen and (min-width: 600px) {
+      div.topnav {
+        font-size: 25px;
+      }
+    }
+    /* Small screen--> smaller text */
+    @media screen and (max-width: 600px) {
+      div.topnav {
+        font-size: 20px;
+      }
+    }
+      /* On screens that are 600px wide or less, make the menu left stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+input[type="text"], input[type="email"], textarea, select,
+button{display: inline;margin: 15px;width: 300px;box-sizing: border-box;
+border-radius: 4px; box-shadow: inset 2px 2px 5px lightgreen;
+}
+textarea{height: 100px;padding: 5px 4px;
+}
+.footer {
+  height:200px;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
