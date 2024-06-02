@@ -1,7 +1,7 @@
 @media screen and (min-width: 600px) {
 div.header {
       width:auto;
-      height:60px;
+      height:80px;
       padding-bottom: 10px;
       background-color: blueviolet;
       color: white;
