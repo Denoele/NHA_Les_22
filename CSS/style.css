@@ -1,12 +1,12 @@
-@media screen and (min-width: 600px) {
-div.header {
+@media screen and (max-width: 600px) {
+.header {
       width:auto;
       height:80px;
       padding-bottom: 10px;
       background-color: blueviolet;
       color: white;
       text-align: center;
-      font-size: 40px;
+      font-size: 0px;
     }
   }
 /*      */
