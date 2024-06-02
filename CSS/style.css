@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 600px) {
 div.header {
       width:auto;
       height:60px;
@@ -6,6 +6,8 @@ div.header {
       background-color: blueviolet;
       color: white;
       text-align: center;
+      font-size: 40px;
+    }
   }
 /*      */
 div{ display: block;text-align: center; 
