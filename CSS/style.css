@@ -69,10 +69,7 @@ div.example {
 }
 }
 
-input[type="text"], input[type="email"], textarea, select,
-button{display: inline;margin: 15px;width: 300px;box-sizing: border-box;
-border-radius: 4px; box-shadow: inset 2px 2px 5px lightgreen;
-}
+
 textarea{height: 100px;padding: 5px 4px;
 }
 .footer {
