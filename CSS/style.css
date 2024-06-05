@@ -29,7 +29,9 @@ background-color: #ddd;
 color: black;
 }
 
-
+.container {
+align-items: center;
+}
 
 .form-container {
 align-items: center;
