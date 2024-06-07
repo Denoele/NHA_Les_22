@@ -28,13 +28,16 @@ background-color: blue;
 background-color: #ddd;
 color: black;
 }
-
-.container {
-align-items: center;
+.column img {
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
 }
 
 .form-container {
-align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* bigger screen--> bigger text */
@@ -68,6 +71,7 @@ div.example {
   width: 100%;
 }
 }
+
 input[type="text"], input[type="email"], textarea, select,
 button{display: inline;margin: 15px;width: 300px;box-sizing: border-box;
 border-radius: 4px; box-shadow: inset 2px 2px 5px lightgreen;
@@ -75,10 +79,12 @@ border-radius: 4px; box-shadow: inset 2px 2px 5px lightgreen;
 
 textarea{height: 100px;padding: 5px 4px;
 }
+
 .footer {
 height:200px;
 background-color: blueviolet;
 color: white;
 padding: 10px;
 text-align: center;
+margin-top: 8px;
 }
