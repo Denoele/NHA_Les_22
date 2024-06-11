@@ -4,7 +4,11 @@
   text-align: center;
   padding: 32px;
   }
-
+/* Small screen--> smaller text */
+@media screen and (max-width: 600px) {
+div.header {
+  font-size: 20px;
+}
   
 /*      */
 div{ display: block;text-align: center; 
